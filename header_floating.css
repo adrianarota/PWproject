@@ -1,0 +1,109 @@
+
+   .header {
+	   position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+		display: flex;
+        background-color: #7F38EC;
+        width: 100%;
+        margin: none;
+        color: white;
+    }
+   .subheader {
+	   position: fixed;
+        left: 150px;
+        right: 0;
+		 overflow: hidden;
+       white-space: nowrap;
+        top: 87px;
+		display: flex;
+        background-color: lightgray;
+        width: 100%;
+        margin: none;
+        color: white;
+    }
+.subheader-menu-item {
+    text-decoration:none;
+
+    color: white;
+    padding-left: 50px;
+	
+    padding-right: 50px;
+    font-weight: bold;
+	font-size: 30px;
+    margin-bottom:0px;
+}
+
+
+.main-item {
+	  position: fixed;
+        left: 150px;
+        right: 0;
+		 overflow: hidden;
+       white-space: nowrap;
+        top: 200px;
+		display: flex;
+        background-color: lightgray;
+        width: 100%;
+        margin: none;
+        color: white;
+}
+
+.floating-header-menu-item {
+
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+    font-weight: bold;
+    margin-left: 240px;
+    margin-right: 20px;
+    margin-top: 10px;
+	font-size: 80px;
+    margin-bottom:0px;
+}
+.floating-header-logo {
+   position: fixed;
+     margin-bottom: 0px;  
+   margin-left: 0px;  
+}
+
+.floating-header-menu-item p {
+
+    margin: 0px;
+}
+
+.floating-header-menu-item a {
+    padding: 0;
+	
+	margin: 0px;
+}
+
+
+
+ /*a:link
+{
+	    text-decoration: none;
+
+    color: white;
+    font-weight: bold;
+
+	
+	
+}
+
+*/
+
+a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.red-background {
+    background-color: red;
+}
+/*
+.highlightable:hover {
+    background-color: red;
+}*/

@@ -1,36 +1,55 @@
 <!DOCTYPE html>
 <html>
-<title>ForumAC</title>
-<body   bgcolor=lightgrey>
-<header class="header">  
-  <div class="floating-header-logo" >
+<style>
+
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid dark-grey;
+    box-sizing: border-box;
+}
+
+
+.cancelbtn {
+     width: 8%;
+	height: 40px;
+ padding: 0px;
+    background-color: grey;
+}
+
+
+
+.container {
+    padding: 16px;
+}
+
+
+
+</style>
+<body>
+<link href="header_floating.css" rel="stylesheet" type="text/css"> 
+
+<h1>Login </h1>
+
+<form action="/action_page.php">
   
-	<a href="https://en.wikipedia.org/wiki/Adder_(electronics)#Full_adder">
-        <img src="circuit.png" width="200" height="102" >
-      </a>
-    </div>
+  <div class="container" style="background-color:#f1f1f1">
+<div>   
+   <label style="padding-right:15px"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+</div>
+    <label style="padding-right:15px"><b>Password</b></label>
+    <input  type="password" placeholder="Enter Password" name="psw" required>
+<div>        
+    <button type="submit">Login</button>
+	 <button type="button" class="cancelbtn">Cancel</button>
+</div>	
+   
+  </div>
 
-    <div class="floating-header-menu-item">  
-        <p >FAC | forum AC</p>
-	</div>	
-</header>
-
-   <p class="subheader" >
-	<a class="subheader-menu-item "  href="a.html">
-        Acasa
-      </a>
-   <a class="subheader-menu-item "  href="b.html">
-        Forum
-      </a>
-  <a class="subheader-menu-item "  href="c.html">
-        Resurse
-      </a>
-   <a class="subheader-menu-item "  href="d.html">
-       Login
-      </a>
-     
-   	</p>
-
+</form>
 
 </body>
-<link href="header_floating.css" rel="stylesheet" type="text/css"> 
+</html>

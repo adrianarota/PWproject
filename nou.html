@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+input[type=text], input[type=password] , input[type=email], input[type=password2]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid dark-grey;
+    box-sizing: border-box;
+}
+
+
+.cancelbtn {
+     width: 8%;
+	height: 40px;
+ padding: 0px;
+    background-color: grey;
+}
+
+
+
+.container {
+    padding: 16px;
+}
+
+
+
+</style>
+<body style="background-color:grey">
+<link href="header_floating.css" rel="stylesheet" type="text/css"> 
+
+<h1 style="color:lightgrey" >New account </h1>
+
+<form  action="/action_page.php">
+  
+  <div class="container" style="background-color:lightgrey">
+<div>   
+   <label style="padding-right:44px"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+</div>
+    <label style="padding-right:39px"><b>Email</b></label>
+    <input  type="email" placeholder="Enter Email" name="email" required>
+<div>  
+</div>
+    <label style="padding-right:39px"><b>Password</b></label>
+    <input  type="password" placeholder="Enter Password" name="psw" required>
+<div>   
+ 
+</div>
+    <label style="padding-right:15px"><b>Retype password</b></label>
+    <input  type="password2" placeholder="Enter Password" name="psw2" required>
+<div>   
+     
+    <button type="submit">Create</button>
+	 <button type="button" class="cancelbtn">Cancel</button>
+	</div>	
+   
+  </div>
+
+</form>
+
+</body>
+</html>

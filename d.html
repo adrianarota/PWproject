@@ -28,14 +28,14 @@ input[type=text], input[type=password] {
 
 
 </style>
-<body>
+<body style="background-color:grey">
 <link href="header_floating.css" rel="stylesheet" type="text/css"> 
 
-<h1>Login </h1>
+<h1 style="color:lightgrey" >Login </h1>
 
-<form action="/action_page.php">
+<form  action="/action_page.php">
   
-  <div class="container" style="background-color:#f1f1f1">
+  <div class="container" style="background-color:lightgrey">
 <div>   
    <label style="padding-right:15px"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
@@ -44,8 +44,9 @@ input[type=text], input[type=password] {
     <input  type="password" placeholder="Enter Password" name="psw" required>
 <div>        
     <button type="submit">Login</button>
-	 <button type="button" class="cancelbtn">Cancel</button>
-</div>	
+	 <button type="button" class="cancelbtn">Anuleaza</button>
+ <button onclick="location.href='nou.html'" type="button" >Cont nou</button>
+	</div>	
    
   </div>
 
